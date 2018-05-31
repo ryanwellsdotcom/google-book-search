@@ -63,7 +63,8 @@ class Search extends Component {
 
       // save query for use in paginating  
       this.setState({
-        savedQuery: this.state.currentQuery
+        savedQuery: this.state.currentQuery,
+        activePage: 1
       });
     }
     event.preventDefault();
