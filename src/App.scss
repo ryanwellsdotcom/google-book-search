@@ -1,0 +1,13 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 940px;
+    padding: 50px 10px;
+}
+
+.header {
+    &__title {
+        color: #333;
+        font-weight: 500;
+    }
+}
