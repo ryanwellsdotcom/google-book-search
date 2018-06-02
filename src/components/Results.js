@@ -30,9 +30,9 @@ const Results = (props) => {
 
   return (
     <Accordion>
-      {props.items.map((item, i) => {
+      {props.items.map((item) => {
         return (
-          <AccordionItem key={i}>
+          <AccordionItem key={item.id}>
             <AccordionItemTitle>
               <h2>
                 <span>{item.volumeInfo.authors ? getAuthors(item) : 'No author(s) listed'} &ndash;</span> {item.volumeInfo.title}
