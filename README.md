@@ -14,7 +14,7 @@ const API_KEY = "your-api-key";
 export { API_KEY };
 ```
 
-You can aquire a Google Books API key here: https://developers.google.com/books/docs/v1/using#APIKey.
+You can acquire a Google Books API key here: https://developers.google.com/books/docs/v1/using#APIKey.
 
 #### 2. Environment
 
